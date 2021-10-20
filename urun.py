@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 
 
 veriler = pd.read_csv(r'D:\MASAÜSTÜ\yorumlar.csv')
-veriler = veriler.dropna(how='any',axis=0) #burayı sunumdan sonra ekledim. kontrol ettiğimde kullandığım kategorilerde çok fazla null değer yoktu hatta bazılarında hiç yoktu o yüzden grafiklerde çoğunda değişiklik olmadı..
+veriler = veriler.dropna(how='any',axis=0)
 
 
 a = veriler[['Clothing ID','Review Text']]
